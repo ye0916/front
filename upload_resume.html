@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--#通义灵码666-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="upload-section">
+                <h2>Finish!</h2>
+                <h3>Upload Your Resume</h3>
+                <p>Upload your resume, the platform will help you parse and optimize, you can also skip this step.</p>
+                <img src="img.png" alt="Illustration of a cat with speech bubbles">
+            </div>
+            <div class="upload-form">
+                <h4>Upload file</h4>
+                <div class="upload-area" id="uploadArea">
+                    <i class="upload-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M15 9h-4V4H9v5H5l7 7 7-7h-4zm2 10v2h2v-2h-2zM9 19V5h6v14H9z"/></svg></i>
+                    <p>Drag your resume file to this area, or click on the area to select the appropriate file to upload.</p>
+                    <input type="file" id="fileInput" style="display: none;">
+                </div>
+                <button id="lastStepBtn">Last step</button>
+                <button id="finishBtn">Finish</button>
+                <div class="progress-bar">
+                    <span class="step active"></span>
+                    <span class="step active"></span>
+                    <span class="step"></span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
